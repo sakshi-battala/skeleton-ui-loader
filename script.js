@@ -30,4 +30,4 @@ async function fetchUsers() {
 }
 
 showSkeleton();
-fetchUsers();
+// fetchUsers();
