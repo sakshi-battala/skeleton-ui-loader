@@ -23,9 +23,10 @@ A lightweight demo showing a skeleton loader built with HTML, CSS, and JavaScrip
 
 ## Screenshots
 
-![Screenshot 1](./screenshots/screenshot-1.png)
-
-![Screenshot 2](./screenshots/screenshot-2.png)
+<p align="center">
+<img  width="49%" alt="image" src="https://github.com/user-attachments/assets/ac39e9a4-cd71-4c8d-9e09-b10f1b604f01" />
+<img  width="49%"" alt="image" src="https://github.com/user-attachments/assets/c3da334d-e346-423a-98a5-a7c7421e994a" />
+</p>
 
 ## Notes
 
