@@ -1,6 +1,13 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
 .users-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
   padding: 20px;
 }
@@ -67,4 +74,28 @@
 .user-card p {
   width: 100%;
   height: 14px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #111827;
+  color: #f9fafb;
+  padding: 1.2rem 2rem;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+  gap: 1rem;
+  align-items: center;
+}
+
+.nav-links {
+  cursor: pointer;
 }
