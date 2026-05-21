@@ -5,7 +5,8 @@ A lightweight demo showing a skeleton loader built with HTML, CSS, and JavaScrip
 ## What I built
 
 - A skeleton screen that displays animated placeholder elements while content is loading.
-- A simple HTML structure for loader placeholders and actual content.
+- A sticky navbar that stays fixed at the top for easy navigation.
+- Theme management concepts for toggling between light and dark modes.
 - CSS animations to create a shimmer effect.
 - JavaScript to simulate data loading and swap the skeleton UI with real content.
 
@@ -20,6 +21,8 @@ A lightweight demo showing a skeleton loader built with HTML, CSS, and JavaScrip
 1. Open `index.html` in a browser.
 2. The skeleton loader appears first.
 3. After a short delay, real content is shown.
+4. Theme management lets you switch between light and dark modes if configured in the demo.
+5. The sticky navbar remains visible when scrolling.
 
 ## Screenshots
 

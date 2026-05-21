@@ -5,6 +5,21 @@
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
+:root {
+  --bg-color: white;
+  --text-color: black;
+}
+
+.dark {
+  --bg-color: black;
+  --text-color: white;
+}
+
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+
 .users-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));

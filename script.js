@@ -1,4 +1,5 @@
 const container = document.querySelector(".users-container");
+const themeBtn = document.querySelector(".theme");
 
 function showSkeleton() {
   for (let index = 0; index < 9; index++) {
@@ -28,6 +29,16 @@ async function fetchUsers() {
     `;
   });
 }
+
+themeBtn.addEventListener("click", () => {
+  document.body.classList.toggle("dark");
+
+  if (document.body.classList.contains("dark")) {
+    themeBtn.textContent = "Light-mode";
+  } else {
+    themeBtn.textContent = "Dark-mode";
+  }
+});
 
 showSkeleton();
 fetchUsers();
